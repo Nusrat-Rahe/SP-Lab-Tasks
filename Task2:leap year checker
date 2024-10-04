@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+    int year;
+    scanf("%d",&year);
+    int y=(year%400==0)||((year%4==0)&&(year%100!=0));
+    switch(y){
+case 1:
+    printf("leap year\n");
+    break;
+default:
+    printf("not leap year\n");
+    }
+return 0;
+}
+
