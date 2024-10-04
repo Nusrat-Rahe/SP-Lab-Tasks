@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int n;
+    int factorial=1;
+    scanf("%d",&n);
+    int i=1;
+    while(i<=n){
+        factorial*=i;
+        i++;
+    }
+    printf("%d\n",factorial);
+    return 0;
+}
